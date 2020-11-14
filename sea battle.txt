@@ -1,0 +1,88 @@
+#include <iostream>
+#include <time.h>
+using namespace std;
+
+int board[10][10]; // two dimesional array for game
+// fill by 10 bits
+const int n = 12;
+char a[n][n];
+int x, y, p, field; //k is for ships or korabli
+int L, i, j;
+int coordx, coordy; // the different coordinates and points for the array
+void boatcoordinates() {
+	coordx = rand() % n;
+	coordy = rand() % n;
+	bool set_korablei(int board[][10]);
+}
+int main()
+{
+{	srand(time(NULL));
+	rand();
+	cout << "sea battle" << endl;
+	// creating all battle ships    Default=(0-4)
+	int area_korablei = 0;
+	int x = 0;
+	int y = 0;
+	set_korablei(board, x+1)==0; //ship 1  // adding and subtracting so they wont come in contact
+	set_korablei(board, x-1)==0; //ship 2
+	set_korablei(board, x+1)==0; //ship 3
+	set_korablei(board, x-1)==0; // ship 4
+}
+        {	
+        return 0;
+}
+}
+
+
+	void vivod_array(int positions[n][n], int n, int k = 0); {
+	for (int i = 0; i < 100; i++)
+	{
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = 0; j < n; j++)
+			{
+				a[i][i] = '?';
+			}
+		}
+		for (int t1 = 0, t2 = 0; t1 < 4, t2 < 8; t1++, t2 += 2)
+		{
+			p = 0;
+			while (k != (14 - t2))
+			{                         //edit the field to x
+				position = 1 + rand() % 2; // positions
+				void change() {
+			    if (field == 1) 
+				{
+					x = 1 + rand() % 10;
+					y = 1 + rand() % (7 + t1);
+				}
+				for (int i = -1; i <= 4; i++)
+					{
+					if (a[x - 1][y + i] == '?' )
+						k++;
+					if (a[x + 1][y + i] == '?' )
+						k++;
+					}
+					for (int i = 0; i < 4 - t1; i++) // showing the square cells
+					{
+						a[x][y + i] = '#';  
+					}
+                                         int damage(int kto)
+    {
+ 
+        if (field[x][y] == 1) {
+            cout << "hit"; field[x][y] = 2;   kto++;   // hit                
+        }                                       
+        else if (field[x][y] == 0) {
+            field[x][y] = 3;   
+        }
+        return kto;
+
+					
+				}
+			system("pause");
+			one.player cout << "\n";
+			}
+		}
+	
+	}
